@@ -46,7 +46,12 @@ export default class App extends Component {
 					<EmojiDisplay labels={this.state.emojis} />
 				</section>
 				<footer>
-					<span>#Tweet2Emoji</span> project by <span>Ciprian Bodnar</span> & <span>Cristian Hasna</span>
+					<span>
+						<a href="https://docs.google.com/document/d/1G8vjm3zdeBaLWtwtpXGSuAOjHHYcdPwqap9YSpsT5BM/edit?usp=sharing">
+							#Tweet2Emoji
+						</a>
+					</span>{' '}
+					project: <span>Ciprian Bodnar</span> & <span>Cristian Hasna</span>, group <span>A7</span>
 				</footer>
 			</Fragment>
 		);
